@@ -45,8 +45,12 @@ public class Practica51
         e.ingresa(800);
         System.out.println(e);
 */
-        Profesor pr = new Profesor(441, "Aci1", "213123123H", "Matias");
-        System.out.println(pr);
+        //Profesor pr = new Profesor(441, "Aci1", "213123123H", "Matias");
+       
+        //System.out.println(pr);
+        
+        Reunion rn= new Reunion(12, 30, 0, "Clase Aci", 21, 2017, Fecha.Mes.MARZO);
+        System.out.println(rn);
     }
 }
 
